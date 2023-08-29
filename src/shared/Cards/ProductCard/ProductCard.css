@@ -1,0 +1,77 @@
+.ProductMainCard{
+    height: 55vh;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    /* width: 40vw; */
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: 1px solid rgb(152, 161, 192);
+    border-radius: 5vh ;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ProductMainCard:hover{
+    background: linear-gradient(111.1deg, rgb(251, 140, 0) 3.2%, rgb(98, 0, 234) 90.3%);
+}
+
+.ProductDetailsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProductCardTitle{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #370944;
+    margin: 0 0 2vh 0;
+}
+
+.buyButton{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    width: 10vw;
+    padding: 2vh 2vw;
+    background-color: #395dab;
+    margin: 2vh 0 0 0;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+/* CSS */
+.button-91 {
+    margin: 2vh 0 0 0;
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}

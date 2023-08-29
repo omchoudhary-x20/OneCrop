@@ -1,0 +1,58 @@
+.NavBar {
+    width: 100vw;
+    height: 10vh;
+    padding: 0 2vw;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    background:  #ffffff;
+    border-bottom: 15px solid #0000FF;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 10vh;
+  }
+  
+  .navTitles {
+    display: flex;
+  }
+  
+  .headingText {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #7f7f7f;
+    padding: 0 1vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .headingText:hover {
+    color: #ff69b4;
+  }
+  
+  .headingText.active {
+    color: #ff69b4;
+  }
+  
+  .rainbow {
+    display: flex;
+  }
+  
+  .button1 {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 2em;
+  }
+  

@@ -1,0 +1,14 @@
+# Ignore Node modules
+node_modules/
+venv/Include
+venv/Lib
+venv/Scripts
+venv/share
+venv/xgboost
+venv/pyvenv.cfg
+api/crop_disease_maize
+api/crop_disease_sunflower
+api/crop_disease_wheat
+api/crop_fertilizer
+api/crop_yield
+api/app.py

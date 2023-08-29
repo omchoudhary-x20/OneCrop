@@ -1,0 +1,103 @@
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple:before {
+  content: '';
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+  pointer-events: none;
+}
+
+.ripple:hover:before {
+  background-color: pink;
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.homePages {
+  position: relative;
+}
+
+.shoppingButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f50057;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.shoppingButton:hover {
+  background-color: #c51162;
+}
+
+.shoppingLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.shoppingLink span {
+  margin-left: 5px;
+}
+
+.titleDisplay{
+    margin : 10vh 6vw;
+    padding : 5vw 0 0 0;
+}
+
+.animatedTitle h1 {
+    color:aliceblue;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .animatedTitle h2 {
+    color:aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 100px 50px 100px;
+  }
+
+
+  .animatedTitle h1 span {
+    color:aliceblue;
+    display: inline-block;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

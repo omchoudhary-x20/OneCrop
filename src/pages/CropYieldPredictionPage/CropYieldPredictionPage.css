@@ -1,0 +1,49 @@
+.crop-yield-prediction-container {
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prediction-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .prediction-form label {
+    display: block;
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+  }
+  
+  .prediction-result {
+    margin-top: 30px;
+  }
+  
+  .result-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-value {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-listing {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-listing label {
+    margin-left: 10px;
+  }
+  

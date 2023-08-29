@@ -1,0 +1,62 @@
+body{
+    background-color: #f5f5f5;
+}
+
+.ProductHeading{
+    margin: 150px 300px 20px 300px;
+    text-align: center;
+}
+
+
+.ProductHeading h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .ProductHeading  h1 span {
+    transition: 0.5s ease-out;
+  }
+  .ProductHeading h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .ProductHeading h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  .ProductHeading h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .ProductHeading h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  
+.ProductHeading h4 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .ProductHeading  h4 span {
+    transition: 0.5s ease-out;
+  }
+  .ProductHeading h4:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .ProductHeading h4:hover span:nth-child(1):after {
+    content: "'";
+  }
+  .ProductHeading h4:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .ProductHeading h4:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }

@@ -1,0 +1,33 @@
+.crop-disease-prediction-container {
+    padding: 20px;
+  }
+  
+  .page-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .prediction-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+  
+ .prediction-result,
+  .remedy-shop {
+    margin-top: 30px;
+  } 
+  
+  .remedy-shop h2 {
+    margin-bottom: 20px;
+  }
+  
